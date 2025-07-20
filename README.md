@@ -8,7 +8,7 @@ Headless UI 패턴을 기반으로 자유롭게 디자인 적용이 가능합니
 ## ✨ Features
 
 - **Headless UI**: 자유로운 스타일링을 위한 구조 제공
-- ⚛**React 기반 컴포넌트**: 작고 가벼운 커스텀 UI 설계 가능
+- **React 기반 컴포넌트**: 작고 가벼운 커스텀 UI 설계 가능
 - **Controlled Component 지원**: 외부에서 상태 관리 가능
 
 <br></br>
