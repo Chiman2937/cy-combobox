@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "declaration": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "emitDeclarationOnly": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
+// outDir은 빌드 결과물 폴더, declaration은 .d.ts 생성
