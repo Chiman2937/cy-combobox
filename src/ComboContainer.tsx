@@ -5,7 +5,7 @@ export interface ContainerProps {
   className?: string;
 }
 
-const ComboContainer = ({ children, className }: ContainerProps) => {
+export const ComboContainer = ({ children, className }: ContainerProps) => {
   const { dropdownRef } = useComboBox();
   return (
     <div ref={dropdownRef} className={className}>
@@ -13,5 +13,3 @@ const ComboContainer = ({ children, className }: ContainerProps) => {
     </div>
   );
 };
-
-export default ComboContainer;

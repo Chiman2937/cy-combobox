@@ -7,7 +7,7 @@ export interface ListItemProps {
   className?: string;
   children: React.ReactNode;
 }
-const ComboListItem = ({
+export const ComboListItem = ({
   value,
   onClick,
   className,
@@ -40,5 +40,3 @@ const ComboListItem = ({
     </button>
   );
 };
-
-export default ComboListItem;

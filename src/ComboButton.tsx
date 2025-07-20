@@ -7,7 +7,7 @@ export interface ButtonProps {
   className?: string;
   children?: React.ReactNode;
 }
-const ComboButton = ({
+export const ComboButton = ({
   value,
   initialLabel,
   className,
@@ -31,5 +31,3 @@ const ComboButton = ({
     </button>
   );
 };
-
-export default ComboButton;

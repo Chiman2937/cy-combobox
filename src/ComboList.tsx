@@ -4,7 +4,7 @@ export interface ListProps {
   children: React.ReactNode;
   className?: string;
 }
-const ComboList = ({ children, className }: ListProps) => {
+export const ComboList = ({ children, className }: ListProps) => {
   const { isOpen } = useComboBox();
 
   return (
@@ -13,5 +13,3 @@ const ComboList = ({ children, className }: ListProps) => {
     </div>
   );
 };
-
-export default ComboList;
