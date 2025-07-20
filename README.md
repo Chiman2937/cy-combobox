@@ -61,16 +61,16 @@ const ComboBoxExample = () => {
 ```
 
 ## ⚙️ Controlled 방식 안내
-cy-combobox는 내부적으로 선택된 값을 기억하지 않습니다.
+cy-combobox는 내부적으로 선택된 값을 기억하며, 외부 변수에 의해 선택값을 변경하는 기능도 지원합니다.
 
-따라서 ComboButton에 value를 전달하고, 각 ComboListItem에서 onClick을 통해 외부에서 상태를 변경하는 완전한 Controlled Component 방식으로 동작합니다.
+ComboButton에 value를 전달하고, 각 ComboListItem에서 onClick을 통해 외부에서 상태를 변경하는 완전한 Controlled Component 방식으로도 동작합니다.
 
 ```tsx
 <ComboButton value={blockType}>
 ```
 이처럼 외부 상태 (blockType)를 기준으로 현재 선택된 항목이 표시되며,
 
-onClick={() => setBlockType('...')} 로 상태를 직접 제어해야 합니다.
+onClick={() => setBlockType('...')} 로 상태를 직접 제어할 수 있습니다.
 
 ## 🧩 구성 요소
 | 컴포넌트             | 설명                                     |
